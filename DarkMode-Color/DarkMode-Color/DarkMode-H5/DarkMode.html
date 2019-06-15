@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<style type="text/css">
+    body {background-color: var(--body-bg-color)}
+    h1 {
+        color: var(--h1-color); 
+        font-family: var(--h1-font);
+        border-style: var(--h1-border-style);
+        border-width: 1px;
+        font-size: 100px;
+        }
+    h2 {
+        color: var(--h2-color);
+        font-size: 70px;
+    }
+
+<!--:root {-->
+<!--    color-scheme: light, dark;-->
+<!--    --body-bg-color: rgb(59, 54, 54);-->
+<!--    --h1-color: #eef1ee;-->
+<!--    --h2-color: #6dbdff;-->
+<!--    --h1-font: Georgia;-->
+<!--    --h1-border-style: dashed;-->
+<!--}-->
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --body-bg-color: rgb(59, 54, 54);
+            --h1-color: #eef1ee;
+            --h2-color: #6dbdff;
+            --h1-font: Georgia;
+            --h1-border-style: dashed;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --body-bg-color: rgb(245, 248, 245);
+            --h1-color: #6dddf1;
+            --h2-color: #6646f5;
+            --h1-font: Times;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+    <h1>This is web view</h1>
+    <h2>This is title</h2>
+    <picture>
+        <source srcset="StarLoad1.jpeg" media="(prefers-color-scheme: light)">
+        <img src="StarLoad2.jpeg" width="700px" height="400px">
+    </picture>
+</body>

@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003903D222B005F100E13348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003903D122B005F100E13348 /* AppDelegate.m */; };
+		003903D522B005F100E13348 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003903D422B005F100E13348 /* SceneDelegate.m */; };
+		003903D822B005F100E13348 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003903D722B005F100E13348 /* ViewController.m */; };
+		003903DB22B005F100E13348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003903D922B005F100E13348 /* Main.storyboard */; };
+		003903DD22B005F300E13348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003903DC22B005F300E13348 /* Assets.xcassets */; };
+		003903E022B005F300E13348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003903DE22B005F300E13348 /* LaunchScreen.storyboard */; };
+		003903E322B005F300E13348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003903E222B005F300E13348 /* main.m */; };
+		003903ED22B005F300E13348 /* DarkMode_ColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003903EC22B005F300E13348 /* DarkMode_ColorTests.m */; };
+		003903F822B005F300E13348 /* DarkMode_ColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003903F722B005F300E13348 /* DarkMode_ColorUITests.m */; };
+		0039040722B00B8800E13348 /* SystemColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039040622B00B8800E13348 /* SystemColorsViewController.m */; };
+		0039040A22B013CE00E13348 /* SuperColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039040922B013CE00E13348 /* SuperColorsViewController.m */; };
+		0039040D22B0157500E13348 /* ForegroundColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039040C22B0157500E13348 /* ForegroundColorsViewController.m */; };
+		0039041022B0168E00E13348 /* BackgroundColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039040F22B0168E00E13348 /* BackgroundColorsViewController.m */; };
+		0039041322B017D500E13348 /* FillColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039041222B017D500E13348 /* FillColorsViewController.m */; };
+		0039041622B0183400E13348 /* OtherColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039041522B0183400E13348 /* OtherColorsViewController.m */; };
+		687B33DB22B0AB3100656DE4 /* DarkColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687B33DA22B0AB3100656DE4 /* DarkColorViewController.m */; };
+		68D6B83822B40A5000CFF1AA /* DarkMode.html in Resources */ = {isa = PBXBuildFile; fileRef = 68D6B83522B40A4F00CFF1AA /* DarkMode.html */; };
+		68D6B83922B40A5000CFF1AA /* StarLoad2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68D6B83622B40A4F00CFF1AA /* StarLoad2.jpeg */; };
+		68D6B83A22B40A5000CFF1AA /* StarLoad1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68D6B83722B40A4F00CFF1AA /* StarLoad1.jpeg */; };
+		68D6B83D22B40A8200CFF1AA /* ColorH5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D6B83C22B40A8200CFF1AA /* ColorH5ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003903E922B005F300E13348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003903C522B005F100E13348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003903CC22B005F100E13348;
+			remoteInfo = "DarkMode-Color";
+		};
+		003903F422B005F300E13348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003903C522B005F100E13348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003903CC22B005F100E13348;
+			remoteInfo = "DarkMode-Color";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003903CD22B005F100E13348 /* DarkMode-Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DarkMode-Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003903D022B005F100E13348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		003903D122B005F100E13348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		003903D322B005F100E13348 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		003903D422B005F100E13348 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		003903D622B005F100E13348 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		003903D722B005F100E13348 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		003903DA22B005F100E13348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		003903DC22B005F300E13348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		003903DF22B005F300E13348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		003903E122B005F300E13348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003903E222B005F300E13348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		003903E822B005F300E13348 /* DarkMode-ColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarkMode-ColorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003903EC22B005F300E13348 /* DarkMode_ColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkMode_ColorTests.m; sourceTree = "<group>"; };
+		003903EE22B005F300E13348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003903F322B005F300E13348 /* DarkMode-ColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarkMode-ColorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003903F722B005F300E13348 /* DarkMode_ColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkMode_ColorUITests.m; sourceTree = "<group>"; };
+		003903F922B005F300E13348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0039040522B00B8800E13348 /* SystemColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemColorsViewController.h; sourceTree = "<group>"; };
+		0039040622B00B8800E13348 /* SystemColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemColorsViewController.m; sourceTree = "<group>"; };
+		0039040822B013CE00E13348 /* SuperColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperColorsViewController.h; sourceTree = "<group>"; };
+		0039040922B013CE00E13348 /* SuperColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperColorsViewController.m; sourceTree = "<group>"; };
+		0039040B22B0157500E13348 /* ForegroundColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForegroundColorsViewController.h; sourceTree = "<group>"; };
+		0039040C22B0157500E13348 /* ForegroundColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForegroundColorsViewController.m; sourceTree = "<group>"; };
+		0039040E22B0168E00E13348 /* BackgroundColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundColorsViewController.h; sourceTree = "<group>"; };
+		0039040F22B0168E00E13348 /* BackgroundColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundColorsViewController.m; sourceTree = "<group>"; };
+		0039041122B017D500E13348 /* FillColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FillColorsViewController.h; sourceTree = "<group>"; };
+		0039041222B017D500E13348 /* FillColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillColorsViewController.m; sourceTree = "<group>"; };
+		0039041422B0183400E13348 /* OtherColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherColorsViewController.h; sourceTree = "<group>"; };
+		0039041522B0183400E13348 /* OtherColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherColorsViewController.m; sourceTree = "<group>"; };
+		687B33D922B0AB3100656DE4 /* DarkColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkColorViewController.h; sourceTree = "<group>"; };
+		687B33DA22B0AB3100656DE4 /* DarkColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkColorViewController.m; sourceTree = "<group>"; };
+		68D6B83522B40A4F00CFF1AA /* DarkMode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DarkMode.html; sourceTree = "<group>"; };
+		68D6B83622B40A4F00CFF1AA /* StarLoad2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StarLoad2.jpeg; sourceTree = "<group>"; };
+		68D6B83722B40A4F00CFF1AA /* StarLoad1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StarLoad1.jpeg; sourceTree = "<group>"; };
+		68D6B83B22B40A8200CFF1AA /* ColorH5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorH5ViewController.h; sourceTree = "<group>"; };
+		68D6B83C22B40A8200CFF1AA /* ColorH5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorH5ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003903CA22B005F100E13348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003903E522B005F300E13348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003903F022B005F300E13348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003903C422B005F100E13348 = {
+			isa = PBXGroup;
+			children = (
+				003903CF22B005F100E13348 /* DarkMode-Color */,
+				003903EB22B005F300E13348 /* DarkMode-ColorTests */,
+				003903F622B005F300E13348 /* DarkMode-ColorUITests */,
+				003903CE22B005F100E13348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		003903CE22B005F100E13348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003903CD22B005F100E13348 /* DarkMode-Color.app */,
+				003903E822B005F300E13348 /* DarkMode-ColorTests.xctest */,
+				003903F322B005F300E13348 /* DarkMode-ColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		003903CF22B005F100E13348 /* DarkMode-Color */ = {
+			isa = PBXGroup;
+			children = (
+				003903D022B005F100E13348 /* AppDelegate.h */,
+				003903D122B005F100E13348 /* AppDelegate.m */,
+				003903D322B005F100E13348 /* SceneDelegate.h */,
+				003903D422B005F100E13348 /* SceneDelegate.m */,
+				003903D622B005F100E13348 /* ViewController.h */,
+				003903D722B005F100E13348 /* ViewController.m */,
+				0039040822B013CE00E13348 /* SuperColorsViewController.h */,
+				0039040922B013CE00E13348 /* SuperColorsViewController.m */,
+				0039040522B00B8800E13348 /* SystemColorsViewController.h */,
+				0039040622B00B8800E13348 /* SystemColorsViewController.m */,
+				0039040B22B0157500E13348 /* ForegroundColorsViewController.h */,
+				0039040C22B0157500E13348 /* ForegroundColorsViewController.m */,
+				0039040E22B0168E00E13348 /* BackgroundColorsViewController.h */,
+				0039040F22B0168E00E13348 /* BackgroundColorsViewController.m */,
+				0039041122B017D500E13348 /* FillColorsViewController.h */,
+				0039041222B017D500E13348 /* FillColorsViewController.m */,
+				0039041422B0183400E13348 /* OtherColorsViewController.h */,
+				0039041522B0183400E13348 /* OtherColorsViewController.m */,
+				687B33D922B0AB3100656DE4 /* DarkColorViewController.h */,
+				687B33DA22B0AB3100656DE4 /* DarkColorViewController.m */,
+				68D6B83B22B40A8200CFF1AA /* ColorH5ViewController.h */,
+				68D6B83C22B40A8200CFF1AA /* ColorH5ViewController.m */,
+				68D6B83422B40A4F00CFF1AA /* DarkMode-H5 */,
+				003903D922B005F100E13348 /* Main.storyboard */,
+				003903DC22B005F300E13348 /* Assets.xcassets */,
+				003903DE22B005F300E13348 /* LaunchScreen.storyboard */,
+				003903E122B005F300E13348 /* Info.plist */,
+				003903E222B005F300E13348 /* main.m */,
+			);
+			path = "DarkMode-Color";
+			sourceTree = "<group>";
+		};
+		003903EB22B005F300E13348 /* DarkMode-ColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				003903EC22B005F300E13348 /* DarkMode_ColorTests.m */,
+				003903EE22B005F300E13348 /* Info.plist */,
+			);
+			path = "DarkMode-ColorTests";
+			sourceTree = "<group>";
+		};
+		003903F622B005F300E13348 /* DarkMode-ColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				003903F722B005F300E13348 /* DarkMode_ColorUITests.m */,
+				003903F922B005F300E13348 /* Info.plist */,
+			);
+			path = "DarkMode-ColorUITests";
+			sourceTree = "<group>";
+		};
+		68D6B83422B40A4F00CFF1AA /* DarkMode-H5 */ = {
+			isa = PBXGroup;
+			children = (
+				68D6B83522B40A4F00CFF1AA /* DarkMode.html */,
+				68D6B83622B40A4F00CFF1AA /* StarLoad2.jpeg */,
+				68D6B83722B40A4F00CFF1AA /* StarLoad1.jpeg */,
+			);
+			path = "DarkMode-H5";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		003903CC22B005F100E13348 /* DarkMode-Color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003903FC22B005F300E13348 /* Build configuration list for PBXNativeTarget "DarkMode-Color" */;
+			buildPhases = (
+				003903C922B005F100E13348 /* Sources */,
+				003903CA22B005F100E13348 /* Frameworks */,
+				003903CB22B005F100E13348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DarkMode-Color";
+			productName = "DarkMode-Color";
+			productReference = 003903CD22B005F100E13348 /* DarkMode-Color.app */;
+			productType = "com.apple.product-type.application";
+		};
+		003903E722B005F300E13348 /* DarkMode-ColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003903FF22B005F300E13348 /* Build configuration list for PBXNativeTarget "DarkMode-ColorTests" */;
+			buildPhases = (
+				003903E422B005F300E13348 /* Sources */,
+				003903E522B005F300E13348 /* Frameworks */,
+				003903E622B005F300E13348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003903EA22B005F300E13348 /* PBXTargetDependency */,
+			);
+			name = "DarkMode-ColorTests";
+			productName = "DarkMode-ColorTests";
+			productReference = 003903E822B005F300E13348 /* DarkMode-ColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		003903F222B005F300E13348 /* DarkMode-ColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0039040222B005F300E13348 /* Build configuration list for PBXNativeTarget "DarkMode-ColorUITests" */;
+			buildPhases = (
+				003903EF22B005F300E13348 /* Sources */,
+				003903F022B005F300E13348 /* Frameworks */,
+				003903F122B005F300E13348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003903F522B005F300E13348 /* PBXTargetDependency */,
+			);
+			name = "DarkMode-ColorUITests";
+			productName = "DarkMode-ColorUITests";
+			productReference = 003903F322B005F300E13348 /* DarkMode-ColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		003903C522B005F100E13348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "申岩";
+				TargetAttributes = {
+					003903CC22B005F100E13348 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					003903E722B005F300E13348 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 003903CC22B005F100E13348;
+					};
+					003903F222B005F300E13348 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 003903CC22B005F100E13348;
+					};
+				};
+			};
+			buildConfigurationList = 003903C822B005F100E13348 /* Build configuration list for PBXProject "DarkMode-Color" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 003903C422B005F100E13348;
+			productRefGroup = 003903CE22B005F100E13348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003903CC22B005F100E13348 /* DarkMode-Color */,
+				003903E722B005F300E13348 /* DarkMode-ColorTests */,
+				003903F222B005F300E13348 /* DarkMode-ColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		003903CB22B005F100E13348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D6B83922B40A5000CFF1AA /* StarLoad2.jpeg in Resources */,
+				68D6B83A22B40A5000CFF1AA /* StarLoad1.jpeg in Resources */,
+				003903E022B005F300E13348 /* LaunchScreen.storyboard in Resources */,
+				003903DD22B005F300E13348 /* Assets.xcassets in Resources */,
+				003903DB22B005F100E13348 /* Main.storyboard in Resources */,
+				68D6B83822B40A5000CFF1AA /* DarkMode.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003903E622B005F300E13348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003903F122B005F300E13348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003903C922B005F100E13348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0039041322B017D500E13348 /* FillColorsViewController.m in Sources */,
+				68D6B83D22B40A8200CFF1AA /* ColorH5ViewController.m in Sources */,
+				0039041622B0183400E13348 /* OtherColorsViewController.m in Sources */,
+				0039041022B0168E00E13348 /* BackgroundColorsViewController.m in Sources */,
+				0039040A22B013CE00E13348 /* SuperColorsViewController.m in Sources */,
+				003903D822B005F100E13348 /* ViewController.m in Sources */,
+				0039040D22B0157500E13348 /* ForegroundColorsViewController.m in Sources */,
+				0039040722B00B8800E13348 /* SystemColorsViewController.m in Sources */,
+				687B33DB22B0AB3100656DE4 /* DarkColorViewController.m in Sources */,
+				003903D222B005F100E13348 /* AppDelegate.m in Sources */,
+				003903E322B005F300E13348 /* main.m in Sources */,
+				003903D522B005F100E13348 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003903E422B005F300E13348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003903ED22B005F300E13348 /* DarkMode_ColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003903EF22B005F300E13348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003903F822B005F300E13348 /* DarkMode_ColorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003903EA22B005F300E13348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003903CC22B005F100E13348 /* DarkMode-Color */;
+			targetProxy = 003903E922B005F300E13348 /* PBXContainerItemProxy */;
+		};
+		003903F522B005F300E13348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003903CC22B005F100E13348 /* DarkMode-Color */;
+			targetProxy = 003903F422B005F300E13348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		003903D922B005F100E13348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003903DA22B005F100E13348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		003903DE22B005F300E13348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003903DF22B005F300E13348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		003903FA22B005F300E13348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		003903FB22B005F300E13348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		003903FD22B005F300E13348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTSJXW72F3;
+				INFOPLIST_FILE = "DarkMode-Color/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewane.DarkMode-Color";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		003903FE22B005F300E13348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTSJXW72F3;
+				INFOPLIST_FILE = "DarkMode-Color/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewane.DarkMode-Color";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0039040022B005F300E13348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTSJXW72F3;
+				INFOPLIST_FILE = "DarkMode-ColorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewane.DarkMode-ColorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkMode-Color.app/DarkMode-Color";
+			};
+			name = Debug;
+		};
+		0039040122B005F300E13348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTSJXW72F3;
+				INFOPLIST_FILE = "DarkMode-ColorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewane.DarkMode-ColorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkMode-Color.app/DarkMode-Color";
+			};
+			name = Release;
+		};
+		0039040322B005F300E13348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTSJXW72F3;
+				INFOPLIST_FILE = "DarkMode-ColorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewane.DarkMode-ColorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DarkMode-Color";
+			};
+			name = Debug;
+		};
+		0039040422B005F300E13348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTSJXW72F3;
+				INFOPLIST_FILE = "DarkMode-ColorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewane.DarkMode-ColorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DarkMode-Color";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003903C822B005F100E13348 /* Build configuration list for PBXProject "DarkMode-Color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003903FA22B005F300E13348 /* Debug */,
+				003903FB22B005F300E13348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003903FC22B005F300E13348 /* Build configuration list for PBXNativeTarget "DarkMode-Color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003903FD22B005F300E13348 /* Debug */,
+				003903FE22B005F300E13348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003903FF22B005F300E13348 /* Build configuration list for PBXNativeTarget "DarkMode-ColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0039040022B005F300E13348 /* Debug */,
+				0039040122B005F300E13348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0039040222B005F300E13348 /* Build configuration list for PBXNativeTarget "DarkMode-ColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0039040322B005F300E13348 /* Debug */,
+				0039040422B005F300E13348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 003903C522B005F100E13348 /* Project object */;
+}
